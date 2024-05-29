@@ -1,0 +1,39 @@
+.student-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.student-table th,
+.student-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.student-table th {
+    background-color: #f2f2f2;
+}
+
+.student-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.student-photo {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.edit-icon,
+.delete-icon {
+    font-size: 20px;
+    color: #333;
+    text-decoration: none;
+}
+
+.edit-icon:hover,
+.delete-icon:hover {
+    color: #ff0000;
+    cursor: pointer;
+}
